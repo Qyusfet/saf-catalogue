@@ -1,0 +1,126 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* width: 100%; */
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container .info{
+    width: 60%;
+    margin-right: 50px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 15px 5px;
+    font-size:14px;
+    text-align: justify;
+    /* width: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 20px; */    
+}
+.intro h1 {
+    color: rgb(123, 118, 118);
+    font-size:80px ;
+}
+.intro{
+    margin-left: 10%;
+    text-align:justify;
+    color: rgb(148, 145, 145);
+}
+.info{
+    
+}
+.features {
+    margin-left: 10%;
+}
+.download{
+    margin-left: 8%;
+}
+.download p{
+    margin-left: 15px;
+    color: rgb(148, 145, 145);
+}
+.buttonns {
+    margin-left: 9%;
+}
+.buttonns button {
+    height: 35%;
+    padding: 10px;
+    width: 25%;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(206, 55, 55)
+}
+.container .image {
+    width: 100%;
+    height: auto;
+    text-align: right;
+    /* width: 70%;
+    height: auto;
+    text-align: right; */
+}
+.image img {
+    width: 60%;
+    height: 100vh;
+    object-fit: cover;
+    /* width: 100%;
+    align-items: flex-end;
+    margin-left: 80%;
+    max-width: fit-content; */
+}
+/* .features, p{
+    color: rgb(90, 84, 84);  
+}
+.features h4{
+    margin-left: 15px;
+}
+.features li {
+    margin-left: 30px;
+} */
+.accordion {
+    /* background-color: #eee; */
+    color: rgb(77, 68, 68);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-left: 10%;
+    /* margin-left: 15px;
+    margin-left: 30px;
+    /* color: rgb(90, 84, 84);   */
+  }
+  
+  .active, .accordion:hover {
+    background-color: transparent; 
+    color: grey;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  .panel li {
+    margin-left: 10%;
+  }
+  .accordion p {
+    margin-left: 5px;
+  }
