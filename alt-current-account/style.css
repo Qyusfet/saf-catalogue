@@ -1,0 +1,49 @@
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.container .text{
+    /* box-sizing: border-box;
+    word-wrap: normal; */
+    border-radius: 0 0 5px 0;
+    background-color: white;
+    box-shadow: 0 0 1px 1px;
+    box-shadow: #343A40;
+    width: 50%;
+    position: absolute;
+    margin: 50px;
+    padding: 30px 50px 50px 50px;
+    text-align: justify;
+    color: #89929b;
+}
+.container .text h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #343A40;
+}
+.container .logo{
+    width: 100%;
+    height: auto;
+    text-align: right;
+
+}
+.view{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.view a{
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border: 1px 1px 1px;
+    color: white;
+}
+.container .logo img
+{
+    max-width: 75%;
+    width: fit-content;
+    height: 100vh;
+}

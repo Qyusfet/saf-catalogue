@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #f5f1f1;
+}
+
+.header{
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+    margin: 0px;
+    background-color: white;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 8%;
+    box-shadow: 2px 1px 2px 2px rgb(201, 199, 199);
+    /* border: 2px solid white; */
+
+}
+
+.header_logo{
+width: 20%;
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+.menu{
+width: 70%;
+display: flex;
+justify-content: space-between;
+margin-top: 2%;
+}
+
+.menu a{
+    text-decoration: none;
+    /* width: 8%; */
+    text-align: center;
+    
+}
+
+.header_menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 2%; */
+    margin-right: 5%;
+   
+}
+.dropdown_btn{
+    color: #9a9b94;
+    font-weight: 200;
+    font-size: 14px;
+}
+.navbar1{
+    width: 100%;
+}
+
+
+/* .menu_list{
+     display: none; 
+    width: 90%;
+    justify-content: space-between;
+} */
+
+
+
+.page{
+    margin-top: 150px;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.search_pane{
+    height: 100px;
+    /* position: fixed; */
+    margin-left: 34%;
+    /* background-color: azure; */
+    top: 160px;
+    justify-content: space-between;
+    /* padding: 5%; */
+    width: 50%;
+    margin-top: -40px;
+    position: absolute;
+    /* padding-bottom: 50px; */
+}
+.search{
+    padding-bottom: 3%;
+    position: relative;
+    width: 100%;
+}
+.search input{
+    width: 60%;
+    padding: 10px 10px;
+    font-size: 1em;
+    border: solid 1px #C6C6C6;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: .2s ease-in;
+    position: relative;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.search i{
+    position: absolute;
+    top: 10px;
+    right: 270px;
+    color: #C6C6C6;
+    font-size: large;
+}
+
+.button{
+    position: relative;
+    /* padding-left: 2%; */
+    width: 70%;
+    margin-left: 10%;
+}
+.button input{
+    border-radius: 5px;
+    /* border-style: none; */
+    padding: 7px;
+    width: 80px;
+    position: relative;
+    outline: none;
+    box-shadow: 2px 2px 2px 2px rgb(235, 233, 233);
+    border: solid 1px #C6C6C6;
+}
+.button input:nth-child(1){
+    background-color: #DD5353;
+    color: white;
+}
+.button input:nth-child(2){
+    /* background-color: blue; */
+    right: 15px;
+}
+.button input:nth-child(3){
+    /* background-color: gray; */
+    right: 25px;
+}
+.button input:nth-child(4){
+    /* background-color: green; */
+    right: 35px;
+}
+
+/* .product{
+    margin-top: 185px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 220px 220px 220px;
+    justify-content: space-between;
+    width: 86%;
+    margin-left: 7%;
+} */
+
+.product{
+    /* margin-top: 250px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 7%;
+    padding-top: 5%;
+   
+}
+
+.product div{
+    border: 2px;
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+    /* padding-bottom: 10%; */
+    /* padding-top: 2%; */
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 2px rgb(235, 233, 233);
+    font-style: normal;
+    padding: 10px 15px;
+}
+.product div p{
+    /* padding: 5%; */
+    margin: 5%;
+    color: black;
+}
+.product div h2{
+    font-weight: 900;
+    margin: 5%;
+    color: black;
+    font-size: 25px;
+    
+}
+.product div img{
+    width: 100%;
+    position: relative;
+    height: 200px;
+}
+.product div a{
+    text-decoration: none;
+    color: rgb(247, 67, 67);
+    /* font-style:oblique; */
+    font-weight: 200;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    
+
+}
+
+/* .product div a a{
+    font-weight: 200;
+    margin-left: 10px;
+    padding-bottom: 10%;
+} */
+
+
+fieldset{
+    border-style: none;
+}
+
+
+.footer{
+    padding: 2% 5%;
+    background-color: #EDEDED;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer div ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer div ul li{
+    padding-bottom: 7px;
+}

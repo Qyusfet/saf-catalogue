@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.agric{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 70%;
+    height: auto;
+    text-align: right;
+    margin-left: 30%;
+}
+.image img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.intro{
+    margin-left: 10px;
+    margin-top: 2%;
+    width: 50%;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 5px  gray;
+    text-decoration: none;
+    color: grey;
+
+}
+.agr{
+    font-size: 50px;
+
+}
+
+.intro p{
+    font-size: large;
+}
+
+.a{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.future_me{
+    display: flex;
+    align-items: center;
+}
+
+.matric{
+    width: 70%;
+    height: auto;
+    text-align: right;
+    margin-left: 30%;
+}
+.matric img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.write{
+    margin-left: 10px;
+    margin: 10;
+    width: 60%;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 5px  gray;
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.write h1{
+    font-size: 50px;
+
+}
+
+.write p{
+    font-size: large;
+}
+
+.write a{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.sway ag{
+    display: flex;
+    align-items: center;
+}
+
+.sway_image{
+    width: 100%;
+    height: auto;
+    text-align: right; 
+    margin-left: 50%;
+}
+.sway_image img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.sway{
+    margin-left: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 80%;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 20px  gainsboro;
+    text-decoration: none;
+    color: grey;
+}
+
+.sway h1{
+    font-size: 50px;
+
+}
+
+.sway p{
+    font-size: large;
+}
+
+.sway a{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.altscore{
+    display: flex;
+    align-items: center;
+}
+
+.altimage{
+    width: 70%;
+    height: auto;
+    text-align: right;
+     margin-left: 30%;
+    
+}
+.altimage img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.alt{
+    margin-left: 10px;
+    margin-top: 10%;
+    width: 60%;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 10px 5px 10px gray;
+    height: 60%;
+    text-decoration: none;
+    color: grey;
+}
+.alt h1{
+    font-size: 50px;
+
+}
+
+.alt p{
+    font-size: large;
+}
+
+.alt a{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
