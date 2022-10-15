@@ -10,12 +10,12 @@
 <body>
     <div class="future_me">
         <div class="write" >
-            <h1>YOUTH BANKING (FUTURE ME)</h1>
-            <p>In Altanative Bank, we care about your future, your dream and <br> asipration and this is why we are introducing you to a youth banking offerings <br> call FUTURE ME</p>
-            <p> FUTURE ME allow students below the age of 18 to independently <br> own an account and also save towards their futures </p>
+            <h1>Youth Banking (FUTURE ME)</h1>
+            <p>In Altanative Bank, we care about your future, your dream and asipration and this is why we are introducing you to a youth banking offerings call FUTURE ME</p>
+            <p> FUTURE ME allow students below the age of 18 to independently own an account and also save towards their futures </p>
             <p>FUTURE ME comes with a whole lots of offering that enhance savings and also also Improve and support your lifestyle </p>
-            <h2>Benefits</h2>
-            <ul>
+            <h2 class="benefits">Benefits</h2>
+            <ul class="list">
                 <li> Access to all E-channel</li>
                 <li> Zero Transaction Fee on regular bank transfers</li>
                 <li> Naira card with Access up to $100</li>
@@ -30,8 +30,8 @@
                 <li> Discount on Meals in the best restaurants on campus</li>
                 <li> benefits – discounts/loyalty bonuses/vouchers for select on-site campus activities</li>
             </ul>
-            <h2>Requirements</h2>
-            <ul>
+            <h2 class="require">Requirements</h2>
+            <ul class="tab">
                 <li> School Admission Letter</li>
                 <li> School/Faculty/Department ID Card</li>
                 <li> Matriculation/Student Admission Number</li>
@@ -44,5 +44,39 @@
             </div>
     </div>
     
+    <script>
+        var acc = document.getElementsByClassName("benefits");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var list = this.nextElementSibling;
+            if (list.style.display === "block") {
+               list.style.display = "none";
+            } else {
+              list.style.display = "block";
+            }
+          });
+        }
+        </script>
+
+<script>
+    var acc = document.getElementsByClassName("require");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var tab = this.nextElementSibling;
+        if (tab.style.display === "block") {
+          tab.style.display = "none";
+        } else {
+          tab.style.display = "block";
+        }
+      });
+    }
+    </script>
+
 </body>
 </html>

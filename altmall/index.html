@@ -20,13 +20,17 @@
            
              Note that you can shop and make payment in full at no additional cost or pay in installments.
         </p>
-        <p>
-            AltMall also offers a Personalized Shopping feature that enables you to shop for items that are not listed on the website.
-        </p>
-           
-           <p>
-            If you would like to purchase an item that Altmall doesnt have listed, simply fill our personalized shopping form and the item would be sourced for you
-           </p>
+        <!-- <p class="more">See more</p> -->
+        <div class="hide">
+            <p>
+                AltMall also offers a Personalized Shopping feature that enables you to shop for items that are not listed on the website.
+            </p>
+               
+               <p>
+                If you would like to purchase an item that Altmall doesnt have listed, simply fill our personalized shopping form and the item would be sourced for you
+               </p>
+        </div>
+        
           
             
         
@@ -39,5 +43,24 @@
         <img src="imagekkk-removebg-preview.png" alt="Happy shoppers">
     </div>
     </div>
+
+    <!-- <script>
+        var acc = document.getElementsByClassName("more");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var hide = this.nextElementSibling;
+            if (hide.style.display === "block") {
+              hide.style.display = "none";
+            } else {
+              hide.style.display = "block";
+            }
+          });
+        }
+        </script> -->
+
+
     
 </body>
