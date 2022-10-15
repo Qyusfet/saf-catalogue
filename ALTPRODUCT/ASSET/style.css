@@ -19,8 +19,7 @@ body{
     object-fit: cover;
 }
 .intro{
-    margin-left: 10px;
-    margin-top: 2%;
+    margin: 50px;
     width: 50%;
     border-radius: 10px;
     position: absolute;
@@ -28,6 +27,13 @@ body{
     box-shadow: 5px 5px 5px  gray;
     text-decoration: none;
     color: grey;
+    padding: 30px 50px 50px 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    font-size: 14px
 
 }
 .agr{
@@ -37,9 +43,10 @@ body{
 
 .intro p{
     font-size: large;
+    line-height: 30px;
 }
 
-.a{
+.a a{
     background-color: red;
     padding: 5px;
     border-radius: 5px;
@@ -64,25 +71,33 @@ body{
     object-fit: cover;
 }
 .write{
-    margin-left: 10px;
-    margin: 10;
-    width: 60%;
+    /* margin-left: 10px; */
+    margin: 50px;
+    width: 50%;
     border-radius: 10px;
     position: absolute;
     background-color: white;
     box-shadow: 5px 5px 5px  gray;
     text-decoration: none;
     color: grey;
+    padding: 30px 50px 50px 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    font-size: 14px;
     
 }
 
 .write h1{
-    font-size: 50px;
+    font-size: 40px;
 
 }
 
 .write p{
     font-size: large;
+    line-height: 30px;
 }
 
 .write a{
@@ -92,6 +107,72 @@ body{
     text-decoration: none;
     color: white;
 }
+
+.benefits {
+    color: rgb(77, 68, 68);
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    /* margin-left: 10%; */
+    
+  }
+  
+  .active, .benefits:hover {
+    background-color: transparent; 
+    color: grey;
+  }
+  
+  .list {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  .list li {
+    margin-left: 10%;
+  }
+  .benefits ul {
+    margin-left: 5px;
+  }
+
+.require {
+    color: rgb(77, 68, 68);
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    /* margin-left: 10%; */
+    
+  }
+  
+  .active, .require:hover {
+    background-color: transparent; 
+    color: grey;
+  }
+  
+  .tab {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  .tab li {
+    margin-left: 10%;
+  }
+  .require ul {
+    margin-left: 5px;
+  }
 
 .sway ag{
     display: flex;
@@ -110,16 +191,21 @@ body{
     object-fit: cover;
 }
 .sway{
-    margin-left: 10px;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    width: 80%;
+    margin: 50px;
+    width: 50%;
     border-radius: 10px;
     position: absolute;
     background-color: white;
-    box-shadow: 5px 5px 20px  gainsboro;
+    box-shadow: 5px 5px 5px  gray;
     text-decoration: none;
     color: grey;
+    padding: 30px 50px 50px 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    font-size: 14px
 }
 
 .sway h1{
@@ -129,6 +215,7 @@ body{
 
 .sway p{
     font-size: large;
+    line-height: 30px;
 }
 
 .sway a{
@@ -156,17 +243,21 @@ body{
     object-fit: cover;
 }
 .alt{
-    margin-left: 10px;
-    margin-top: 3%;
-    width: 40%;
+    margin: 50px;
+    width: 50%;
     border-radius: 10px;
     position: absolute;
     background-color: white;
-    box-shadow: 10px 5px 10px gray;
-    /* height: 50%; */
+    box-shadow: 5px 5px 5px  gray;
     text-decoration: none;
     color: grey;
-    padding: 1%;
+    padding: 30px 50px 50px 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    font-size: 14px
 }
 .alt h1{
     font-size: 50px;
@@ -175,6 +266,7 @@ body{
 
 .alt p{
     font-size: large;
+    line-height: 30px;
 }
 
 .alt a{
