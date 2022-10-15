@@ -1,0 +1,50 @@
+.container
+{
+    display: flex;
+    align-items: center;
+}
+.container .popup-page
+{
+    width: 40%;
+    /* margin-right: 50px; */
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 15px gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 30px 50px 50px 50px;
+    margin-left: 10px;
+    text-align: justify;
+}
+.container .popup-image
+{
+    width: 100%;
+    height: auto;
+    text-align: right;
+
+}
+.container .popup-image img
+{
+    width: 70%;
+    height: 100vh;
+    object-fit: cover;
+}
+.container .popup-page h1
+{
+    font-size:50px;
+}
+.container .popup-page p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.container .popup-page a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
