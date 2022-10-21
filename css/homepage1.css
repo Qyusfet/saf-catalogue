@@ -135,9 +135,10 @@ width: 10%;
     color: #DD5353;
 }
 .product div img{
-    width: 100%;
+    width: 90%;
     position: relative;
     height: 200px;
+    padding: auto 2px;
 }
 
 fieldset{
