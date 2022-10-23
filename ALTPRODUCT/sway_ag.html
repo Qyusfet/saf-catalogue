@@ -14,8 +14,8 @@
             <p>SWAY-AG aims at providing financing of up to N20 million for interested individuals in the Agriculture industry with a 9% markup only from now till 2023</p>
             <p>This is focused on Agricultural businesses involved in crop and livestock production, processing, sales and distribution, equipment purchase, packaging, storage, or distribution</p>
             <p>Members of Farmer’s cooperative societies, SME’s or businesses involved in small-scale farming are eligible for financing.</p>
-            <h2>Requirements</h2>
-            <ul>
+            <h2 class="requirements">Requirements</h2>
+            <ul class="listed">
                 <li>Open account with STERLING ALTERNATIVE FINANCE (Passport photo, N1500 cash deposit, customer enrolment form) </li>
                 <li>A request for the Facility.</li>
                 <li>Provision of equity contribution.</li>
@@ -37,5 +37,21 @@
 </div>
 </div>
     
+<script>
+    var acc = document.getElementsByClassName("requirements");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var listed = this.nextElementSibling;
+        if (listed.style.display === "block") {
+          listed.style.display = "none";
+        } else {
+          listed.style.display = "block";
+        }
+      });
+    }
+    </script>
 </body>
 </html>
