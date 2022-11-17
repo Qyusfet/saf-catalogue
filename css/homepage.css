@@ -133,8 +133,8 @@ margin-top: 2%;
     border: solid 1px #C6C6C6;
 }
 .button input:nth-child(1){
-    background-color: #DD5353;
-    color: white;
+    /* background-color: #DD5353; */
+    /* color: white; */
 }
 .button input:nth-child(2){
     right: 15px;
@@ -192,7 +192,9 @@ margin-top: 2%;
 
 }
 
-
+#individual, #corporate, #investment, #financing{
+    display: none;
+}
 
 fieldset{
     border-style: none;
