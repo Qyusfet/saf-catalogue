@@ -6,10 +6,10 @@ const investment = document.querySelector('.Investments')
 all = () => 
 {
 alert ('all selected')
-viewAll.style = 'background-color: #DD5353'
-viewAll.style.color = 'black'
 viewAll.style = 'font-weight: 700'
 viewAll.disabled = true
+viewAll.style = 'background-color: #DD5353'
+viewAll.style.color = 'white'
 
 individual.style = 'background-color: white'
 individual.style.color = 'black'
@@ -38,10 +38,10 @@ viewAll.addEventListener("click", all);
 individuals = () => 
 {
 alert ('individual selected')
-individual.style = 'background-color: #DD5353'
-individual.style.color = 'black'
 individual.style = 'font-weight: 700'
 individual.disabled = true
+individual.style = 'background-color: #DD5353'
+individual.style.color = 'white'
 
 viewAll.style = 'background-color: white'
 viewAll.style.color = 'black'
@@ -70,10 +70,10 @@ individual.addEventListener("click", individuals);
 corporates = () => 
 {
     alert ('corporate selected')
-corporate.style = 'background-color: #DD5353'
-corporate.style.color = 'black'
 corporate.style = 'font-weight: 700'
 corporate.disabled = true
+corporate.style = 'background-color: #DD5353'
+corporate.style.color = 'white'
 
 individual.style = 'background-color: white'
 individual.style.color = 'black'
@@ -102,10 +102,10 @@ corporate.addEventListener("click", corporates);
 investments = () => 
 {
     alert ('investment selected')
-investment.style = 'background-color: #DD5353'
-investment.style.color = 'black'
 investment.style = 'font-weight: 700'
 investment.disabled = true
+investment.style = 'background-color: #DD5353'
+investment.style.color = 'white'
 
 individual.style = 'background-color: white'
 individual.style.color = 'black'

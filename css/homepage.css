@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: Helvetica Neue;
-    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
     font-weight: 500;
     font-style: normal;    
     
@@ -146,14 +146,20 @@ margin-top: 2%;
     right: 35px;
 }
 
-.product{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#individual, #corporate, #investment, #financing{
+    display: none;
+}
+
+#all-product, #individual, #corporate, #investment, #financing{
     width: 85%;
     margin-left: 7%;
     padding-top: 5%;
-   
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
 }
 
 .product div{
@@ -192,13 +198,12 @@ margin-top: 2%;
 
 }
 
-#individual, #corporate, #investment, #financing{
-    display: none;
-}
+
 
 fieldset{
     border-style: none;
 }
+
 
 
 .footer{
@@ -207,7 +212,6 @@ fieldset{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 14px;
 }
 
 .footer div ul{
@@ -217,4 +221,11 @@ fieldset{
 }
 .footer div ul li{
     padding-bottom: 7px;
+}
+.product div a{
+    text-decoration: none;
+    color: red;
+    font-style:oblique;
+    font-weight: bold;
+
 }
