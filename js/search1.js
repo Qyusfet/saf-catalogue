@@ -12,9 +12,13 @@ const displayProducts = (values) =>{
             element.style.display = "block"
 
             alert(values)
+
             
         }
     })
+
+    
+
 }
 
 searchProduct.addEventListener('input', (e) =>{
