@@ -1,13 +1,15 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* padding: 0; */
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
 .container .info{
     width: 50%;
     margin-right: 50px;
@@ -15,18 +17,21 @@
     border-bottom-right-radius: 20px;
     position: absolute;
     background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /* font-family:'Gill Sans', sans-serif;
-    padding: 5px 5px 15px 5px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 25px 0px;
+    /* font-family:'Gill Sans', sans-serif; */
+    /* padding: 15px 15px 15px 35px; */
     font-size:14px;
     text-align: justify;
     padding: 30px;  
     margin-left: 40px;
     color: rgb(101, 100, 100);
+    margin-bottom: 90px;
 }
 
 .info {
-    padding: 15px,15px,15px,15px;
+    /* height: 100vh; */
+    /* padding: 15px,15px,15px,15px; */
+    height: 83.6%;
 }
 
 p{
@@ -34,27 +39,28 @@ p{
 }
 .intro h1 {
     color: rgb(101, 100, 100);
-    font-size:100px ;
-    margin-bottom: 20px;
+    font-size:50px ;
+    margin-bottom: 30px;
 }
 .intro{
     margin-left: 30px;
     text-align:justify;
     /* color: rgb(148, 145, 145); */
 }
-.download{
-    margin-left: 2%;
+.benefits {
+    font-weight: bold;
 }
-.download p{
-    margin-left: 15px;
-    /* color: rgb(148, 145, 145); */
+.ratings {
+    font-weight: bold;
 }
-.buttonns {
-    margin-left: 4%;
+.buttons {
+    padding-top: 30px;
+    margin-left: 30px;
 }
-.buttonns button {
+.buttons button {
+    /* height: 20%; */
     padding: 7px;
-    width: 22%;
+    width: 20%;
     border-radius: 5px;
     color: white;
     background-color: rgb(206, 55, 55);
@@ -65,19 +71,17 @@ p{
     width: 100%;
     height: auto;
     text-align: right;
-    /* width: 70%;
-    height: auto;
-    text-align: right; */
 }
 .image img {
     width: 72%;
-    height: 100vh;
+    height:120vh;
     object-fit: cover;
 }
+
 .accordion {
     color: rgb(101, 100, 100);
     cursor: pointer;
-    padding: 18px;
+    padding: 12px;
     width: 100%;
     border: none;
     text-align: left;
@@ -86,6 +90,8 @@ p{
     transition: 0.4s;
     margin-left: 8%;
     font-weight: bold;
+    line-height:20px;
+    
   }
   .active, .accordion:hover {
     background-color: transparent; 

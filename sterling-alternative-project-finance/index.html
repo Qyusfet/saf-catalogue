@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sterling Alternative Project Finance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <div class="intro">
+                <h1>Sterling Alternative Project Finance</h1>
+                <p>
+                Sterling Alternative Project Finance operates based on the Non-Interest Islamic banking principle of lstisna' in which the Bank undertakes to enter to produce or manufacture certain asset or project for a client based on agreed specification at a determined price and for future/fixed date of delivery.
+                </p>
+            </div>
+
+            <p class="accordion">This product is available to;</p>
+
+            <div class="panel">
+                <li>Customers seeking to finance developmental projects in real estate and       manufacturing
+                <li>Real estate companies</li>
+                <li>Manufacturers</li>
+                <li>Financial institutions</li>
+                <li>Members of groups, associations or cooperatives</li>
+                <li>Corporate enterprises</li>
+                <li>Government parastatals</li>
+            </div>
+
+            <p class="accordion">General Requirements for self-employed individual/professional</p>
+
+            <div class="panel">
+               <li>Profile of individuals and details of business transactions and experience in the line of business</li>
+               <li>12 months statement of account from existing bankers</li>
+               <li>Details of borrowings with other banks and security</li>
+            </div>
+
+            <p class="accordion">General Requirements for Corporate entities</p>
+        
+            <div class="panel">
+               <li>Structure of existing business and track record in the line of business</li>
+               <li>Management and company profile</li>
+	           <li>12 months statement of account from existing bankers</li>
+	           <li>Audited financial statement for 3 years and latest management account</li>
+            </div>
+
+            <div class="others">
+                <p>Maximum Credit - 80% of the value of goods</p>
+                <p>Maximum Tenure - Up to 48 months</p>
+                <p>Pricing - On rental basis which would be disclosed and agreed with the client</p>
+                <p>Other Requirements - Insurance of the financed asset under the Takaful (insurance) policy</p>
+            </div>
+
+            <div class="buttons">
+                <a href="https://apps.apple.com/us/app/altbank/id1513246800"><button>Get Started</button></a>
+            </div>
+
+        </div>
+        
+        <div class="image">
+            <img src="project_pic2.png" alt="pic">
+        </div>
+    
+        
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+    
+    
+    
+    </div>
+    
+
+</body>
+</html>
