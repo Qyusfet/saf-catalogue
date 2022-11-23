@@ -16,8 +16,6 @@
     position: absolute;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /* font-family:'Gill Sans', sans-serif;
-    padding: 5px 5px 15px 5px; */
     font-size:14px;
     text-align: justify;
     padding: 30px;  
@@ -26,7 +24,7 @@
 }
 
 .info {
-    padding: 15px,15px,15px,15px;
+    height: 83.6%;
 }
 
 p{
@@ -40,6 +38,7 @@ p{
 .intro{
     margin-left: 30px;
     text-align:justify;
+    margin-top: 50px;
     /* color: rgb(148, 145, 145); */
 }
 .download{
@@ -65,9 +64,6 @@ p{
     width: 100%;
     height: auto;
     text-align: right;
-    /* width: 70%;
-    height: auto;
-    text-align: right; */
 }
 .image img {
     width: 72%;
@@ -100,7 +96,9 @@ p{
   }
   .panel li {
     margin-left: 10%;
-    color:rgb(148, 145, 145) ;
+    color:rgb(101, 100, 100);
+    font-weight: 300;
+    /* color:rgb(148, 145, 145) ; */
   }
   .accordion p {
     margin-left: 5px;
