@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     font-size: 14px;
     font-weight: 500;
     font-style: normal;    
@@ -245,4 +245,13 @@ fieldset{
     font-style:oblique;
     font-weight: bold;
 
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(101, 100, 100);
+}
+
+p{
+    line-height: 25px;
 }
