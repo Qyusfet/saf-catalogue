@@ -1,26 +1,115 @@
 @media screen and (max-width: 1050px){
     body{
-        background-color: red;
+        max-width: 1050px;
+    }
+
+    .dropdown_list_item{
+        display: none;
     }
 
     .header{
         width: 100%;
-        max-width: 1050px;
-        padding-left: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
     
     }
 
     .header_logo{
         width: 10%;
     }
+    .logo img{
+        width: 80px;
+        height: 50px;
+    }
 
     .header_menu{
         width: 80%;
-        margin-right: 5%;
-       
+        margin-right: 0%;
+    }
+
+    .page{
+        margin-top: 100px;
+    }
+
+    .search_pane{
+        width: 80%;
+        margin-left: 5%;
+    }
+    .search i{
+        right: 28%;
+    }    
+    
+    .search input{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .button{
+        position: relative;
+        width: 90%;
+        margin-left: 18%;
+    }
+    .button input{
+        border-radius: 5px;
+        padding: 3px;
+        width: 15%;
+    }
+
+    .footer{
+        padding: 2%;
     }
 
 
+}
 
+@media screen and (max-width: 660px){
+    body{
+        max-width: 660px;
+    }
+
+    .header_menu{
+        display:none
+    }
+
+    .menu_img{
+        display: block;
+        margin-right: 5%;
+    }
+
+    .search_pane{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .search i{
+        right: 120px;
+    }    
+    
+    .search input{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .button{
+        position: relative;
+        width: 90%;
+        margin-left: 12%;
+    }
+    .button input{
+        border-radius: 5px;
+        padding: 3px;
+        width: 30%;
+    }
+
+    .button input:nth-child(4){
+        right: -50px;
+    }
+    .button input:nth-child(5){
+        right: -50px;
+    }
+
+    .product div{
+        width: 90%;
+        margin-left: 5%;
+    }
 
 }
