@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Term Deposit Investment</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <div class="info">
+            <div class="intro">
+                <h1>Term Deposit Investment</h1>
+                <p>
+                  These accounts will run on the Sterling Alternative banking of mudarabah which is a profit sharing partnership agreement between the provider of funds(depositors) and Investment manager(the Bank). funds shall be used mostly for trade transactions involving permissible items and commodities. The profits are shared according to pre-agreed ratios between the customer and the Bank. Losses suffered not on account of negligence or breach of Investment mandate by the Bank shall be borne by the depositors/accountholders. 
+                </p>
+            </div>
+    
+            <p class="accordion">This product is available to;</p>
+    
+            <div class="panel">
+                <li>Financial institutions</li>
+                     <li>Members of groups, associations/cooperatives and corporate enterprises</li>
+                     <li>corporate enterprises</li>
+            </div>
+    
+            <p class="accordion">General Requirements</p>
+    
+            <div class="panel">
+                <li>Opening Balance( Minimum deposit of N100,000 )</li>
+                <li>Daily Minimum Balance(Not applicable)</li>
+                <li>Tenure(30 day, 60 days,90 days,180 days,365 days )</li>
+            </div>
+    
+            <div class="buttons">
+                <a href="https://safonlineaccount.sterling.ng/index.html#/"><button>Get Started</button></a>
+            </div>
+    
+        </div>
+    
+        <div class="image">
+            <img src="alt term deposit invest.jpg" alt="pic">
+        </div>
+    
+    
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+    
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+    
+    
+    
+    </div>
+         
+    </head>
+</body>
+</html>
