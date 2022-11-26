@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0%;
+}
+#container
+{
+    display: flex;
+    align-items: center;
+}
+#container .text
+{
+    margin-left: 10px;
+    margin-top: 130px;
+    margin-bottom: auto;
+    width: 50%;
+    margin-right: 50px;
+    border-radius: 5px;
+    position: absolute;
+    background-color:white;
+    box-shadow: 5px 5px 20px gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 25px 5px;
+}
+#container .image
+{
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+#container .image img
+{
+    width: 60%;
+    height: 100vh;
+    object-fit: cover;
+}
+#container .text h1
+{
+    font-size: 50px;
+}
+#container .text p
+{
+    font-size: large;
+}
+
+.text a{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.text{
+    text-decoration: none;
+    color: gray;
+}
