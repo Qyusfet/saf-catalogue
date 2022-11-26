@@ -55,7 +55,7 @@ margin-top: 2%;
 }
 
 .header_menu{
-    width: 70%;
+    width: 68%;
     display: flex;
     justify-content: space-between;
     /* margin-right: 5%; */
@@ -235,7 +235,7 @@ header.open_nav{
         position: absolute;
         width: 200px;
         padding: 20px 20px 20px 20px;
-        box-shadow: rgba( 0 0 0 / .1);
+        box-shadow: 1px rgba( 0 0 0 / .1);
         background-color: #fff;
         top: 50px;
         right: 0;
