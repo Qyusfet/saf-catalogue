@@ -18,4 +18,7 @@ dropDown.addEventListener('click', e =>{
             
         }
     }
+    // else{
+    //     headerNav.classList.toggle('open_na')
+    // }
 })
