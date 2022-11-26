@@ -45,7 +45,7 @@ margin-top: 2%;
     width: 60%;
     display: flex;
     justify-content: space-between;
-    margin-right: 5%;
+    /* margin-right: 5%; */
    
 }
 .dropdown_btn{
@@ -238,3 +238,7 @@ p{
 .menu{
     display: none;
 }
+
+
+
+
