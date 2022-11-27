@@ -52,7 +52,7 @@ p{
     padding-top: 30px;
     margin-left: 30px;
 }
-.buttons button {
+.buttons a {
     padding: 7px;
     width: 20%;
     border-radius: 5px;
@@ -60,6 +60,7 @@ p{
     background-color: rgb(206, 55, 55);
     border: none;
     font-size: 12px;
+    text-decoration: none;
 }
 .container .image {
     width: 100%;
