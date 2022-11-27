@@ -320,10 +320,10 @@ body{
 }
 
 .station{
-  width: 100%;
+  width: 70%;
   height: auto;
   text-align: right;
-   margin-left: 80%;
+   margin-left: 50%;
 }
 .station img{
   width: 100%;
@@ -331,23 +331,23 @@ body{
   object-fit: cover;
 }
 .ifuel{
-  margin-left: 10px;
-  margin-top: 20%;
-  margin-bottom: 4%;
-  width: 65%;
-  border-radius: 10px;
-  position: absolute;
-  background-color: white;
-  box-shadow: 5px 5px 5px  gray;
-  text-decoration: none;
-  color: grey;
-  padding: 30px 50px 50px 50px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  text-decoration: none;
-  color: grey;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align:justify;
-  font-size: 14px
+  margin-left: 50px;
+    margin-top: 15%;
+    margin-bottom: 4%;
+    width: 55%;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 5px  gray;
+    text-decoration: none;
+    color: grey;
+    padding: 30px 50px 50px 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    font-size: 14px
 }
 
 .ifuel h1{
