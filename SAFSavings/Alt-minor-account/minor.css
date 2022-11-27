@@ -73,6 +73,7 @@ body{
   .write{
     /* margin-left: 10px; */
     margin: 50px;
+    margin-top: 300px;
     width: 50%;
     border-radius: 10px;
     position: absolute;
