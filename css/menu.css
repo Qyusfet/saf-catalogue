@@ -266,3 +266,21 @@ header.open_nav{
 
 
 
+.help{
+    position: fixed;
+    z-index: 100;
+    margin-left: 90vw;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    top: 80vh;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+span{
+    /* opacity: 0; */
+    display: none;
+    color: blue !important;
+}
