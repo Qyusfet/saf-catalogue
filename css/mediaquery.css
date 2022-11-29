@@ -23,7 +23,7 @@
     }
 
     .header_menu{
-        width: 80%;
+        width: 70%;
         margin-right: 0%;
     }
 
@@ -58,6 +58,10 @@
     .footer{
         padding: 2%;
     }
+ 
+    .footer div h3{
+        font-size: 14px;
+    }
 
 
 }
@@ -73,7 +77,8 @@
 
     .menu_img{
         display: block;
-        margin-right: 5%;
+        margin-left: 20%;
+        position: relative;
     }
 
     .search_pane{

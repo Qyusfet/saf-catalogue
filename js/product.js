@@ -6,11 +6,16 @@ const displayProducts = (values) =>{
         element.style.display = "none"
         const productName = element.querySelector('h2').innerHTML.toUpperCase();
         const productDesc = element.querySelector('p').innerHTML.toUpperCase();
-
+        // const productTag = element.querySelector('tag').innerHTML.toUpperCase();
 
         if (productName.includes(values) || productDesc.includes(values)){
             element.style.display = "block"
         }
+
+        // if (productName.includes(values) || productDesc.includes(values) || productTag.includes(values)){
+        //     element.style.display = "block"
+        // }
+
     })
 
     viewAll.style = 'font-weight: 700'
@@ -32,6 +37,11 @@ const displayProducts = (values) =>{
     investment.style.color = 'black'
     investment.style = 'font-weight: 700'
     investment.disabled = false
+
+    financing.style = 'background-color: white'
+    financing.style.color = 'black'
+    financing.style = 'font-weight: 700'
+    financing.disabled = false
     
     document.querySelector('#all-product').style.display = 'block'
     document.querySelector('#individual').style.display = 'none'

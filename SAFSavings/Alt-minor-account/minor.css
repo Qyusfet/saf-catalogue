@@ -1,24 +1,24 @@
 body{
     margin: 0px;
     padding: 0px;
-}
-.agric{
+  }
+  .agric{
     display: flex;
     align-items: center;
-}
-
-.image{
+  }
+  
+  .image{
     width: 70%;
     height: auto;
     text-align: right;
     margin-left: 30%;
-}
-.image img{
+  }
+  .image img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
-}
-.intro{
+  }
+  .intro{
     margin: 50px;
     width: 50%;
     border-radius: 10px;
@@ -34,45 +34,46 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align:justify;
     font-size: 14px
-
-}
-.agr{
+  
+  }
+  .agr{
     font-size: 50px;
-
-}
-
-.intro p{
+  
+  }
+  
+  .intro p{
     font-size: large;
     line-height: 30px;
-}
-
-.a a{
+  }
+  
+  .a a{
     background-color: red;
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
-}
-
-.future_me{
+  }
+  
+  .minor{
     display: flex;
     align-items: center;
-}
-
-.matric{
+  }
+  
+  .matric{
     width: 70%;
     height: auto;
     text-align: right;
     margin-left: 30%;
-}
-.matric img{
+  }
+  .matric img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
-}
-.write{
+  }
+  .write{
     /* margin-left: 10px; */
     margin: 50px;
+    margin-top: 300px;
     width: 50%;
     border-radius: 10px;
     position: absolute;
@@ -88,27 +89,27 @@ body{
     text-align:justify;
     font-size: 14px;
     
-}
-
-.write h1{
-    font-size: 40px;
-
-}
-
-.write p{
+  }
+  
+  .write h1{
+    font-size: 70px;
+  
+  }
+  
+  .write p{
     font-size: large;
     line-height: 30px;
-}
-
-.write a{
+  }
+  
+  .write a{
     background-color: red;
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
-}
-
-.benefits {
+  }
+  
+  .benefits {
     color: rgb(77, 68, 68);
     cursor: pointer;
     /* padding: 18px; */
@@ -140,8 +141,8 @@ body{
   .benefits ul {
     margin-left: 5px;
   }
-
-.require {
+  
+  .require {
     color: rgb(77, 68, 68);
     cursor: pointer;
     /* padding: 18px; */
@@ -173,24 +174,24 @@ body{
   .require ul {
     margin-left: 5px;
   }
-
-.sway ag{
+  
+  .sway ag{
     display: flex;
     align-items: center;
-}
-
-.sway_image{
+  }
+  
+  .sway_image{
     width: 100%;
     height: 100%;
     text-align: right;
      margin-left: 60%;
-}
-.sway_image img{
+  }
+  .sway_image img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
-}
-.sway{
+  }
+  .sway{
     margin-left: 10px;
     margin-top: 4%;
     margin-bottom: 4%;
@@ -208,27 +209,27 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align:justify;
     font-size: 14px
-}
-
-.sway h1{
+  }
+  
+  .sway h1{
     font-size: 50px;
-
-}
-
-.sway p{
+  
+  }
+  
+  .sway p{
     font-size: large;
     line-height: 30px;
-}
-
-.sway a{
+  }
+  
+  .sway a{
     background-color: red;
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
-}
-
-.requirements {
+  }
+  
+  .requirements {
     color: rgb(77, 68, 68);
     cursor: pointer;
     /* padding: 18px; */
@@ -260,25 +261,25 @@ body{
   .listed ul {
     margin-left: 5px;
   }
-
-.altscore{
+  
+  .altscore{
     display: flex;
     align-items: center;
-}
-
-.altimage{
+  }
+  
+  .altimage{
     width: 70%;
     height: auto;
     text-align: right;
      margin-left: 30%;
     
-}
-.altimage img{
+  }
+  .altimage img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
-}
-.alt{
+  }
+  .alt{
     margin: 50px;
     width: 50%;
     border-radius: 10px;
@@ -294,82 +295,81 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align:justify;
     font-size: 14px
-}
-.alt h1{
+  }
+  .alt h1{
     font-size: 50px;
-
-}
-
-.alt p{
+  
+  }
+  
+  .alt p{
     font-size: large;
     line-height: 30px;
-}
-
-.alt a{
+  }
+  
+  .alt a{
     background-color: red;
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;
     color: white;
-}
-
-
-.fuel{
+  }
+  
+  
+  .fuel{
   display: flex;
   align-items: center;
-}
-
-.station{
-  width: 70%;
-  height: 100vh;
-  text-align: right;
-   margin-left: 50%;
-}
-.station img{
+  }
+  
+  .station{
   width: 100%;
-  height: 100%;
+  height: auto;
+  text-align: right;
+   margin-left: 80%;
+  }
+  .station img{
+  width: 100%;
+  height: 100vh;
   object-fit: cover;
-}
-.ifuel{
-  margin-left: 50px;
-    margin-top: 10%;
-    margin-bottom: 4%;
-    width: 50%;
-    border-radius: 10px;
-    position: absolute;
-    background-color: white;
-    box-shadow: 5px 5px 5px  gray;
-    text-decoration: none;
-    color: grey;
-    padding: 30px 50px 50px 50px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    text-decoration: none;
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:justify;
-    font-size: 14px;
-    /* height: 70vh; */
-}
-
-.ifuel h1{
+  }
+  .ifuel{
+  margin-left: 10px;
+  margin-top: 20%;
+  margin-bottom: 4%;
+  width: 65%;
+  border-radius: 10px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 5px 5px 5px  gray;
+  text-decoration: none;
+  color: grey;
+  padding: 30px 50px 50px 50px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-decoration: none;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:justify;
+  font-size: 14px
+  }
+  
+  .ifuel h1{
   font-size: 50px;
-
-}
-
-.ifuel p{
+  
+  }
+  
+  .ifuel p{
   font-size: large;
   line-height: 30px;
-}
-
-.ifuel a{
+  }
+  
+  .ifuel a{
   background-color: red;
   padding: 5px;
   border-radius: 5px;
   text-decoration: none;
   color: white;
-}
-
-.ben {
+  }
+  
+  .ben {
   color: rgb(77, 68, 68);
   cursor: pointer;
   /* padding: 18px; */
@@ -381,29 +381,29 @@ body{
   transition: 0.4s;
   /* margin-left: 10%; */
   
-}
-
-.active, .ben:hover {
+  }
+  
+  .active, .ben:hover {
   background-color: transparent; 
   color: grey;
-}
-
-.customer {
+  }
+  
+  .customer {
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
   margin-left: 10px;
-}
-.customer li {
+  }
+  .customer li {
   margin-left: 10%;
-}
-.customer ul {
+  }
+  .customer ul {
   margin-left: 5px;
-}
-
-
-.solution {
+  }
+  
+  
+  .solution {
   color: rgb(77, 68, 68);
   cursor: pointer;
   /* padding: 18px; */
@@ -415,23 +415,23 @@ body{
   transition: 0.4s;
   /* margin-left: 10%; */
   
-}
-
-.active, .solution:hover {
+  }
+  
+  .active, .solution:hover {
   background-color: transparent; 
   color: grey;
-}
-
-.vendor {
+  }
+  
+  .vendor {
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
   margin-left: 10px;
-}
-.vendor li {
+  }
+  .vendor li {
   margin-left: 10%;
-}
-.vendor ul {
+  }
+  .vendor ul {
   margin-left: 5px;
-}
+  }

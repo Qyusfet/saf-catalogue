@@ -45,7 +45,7 @@ margin-top: 2%;
     width: 60%;
     display: flex;
     justify-content: space-between;
-    margin-right: 5%;
+    /* margin-right: 5%; */
    
 }
 .dropdown_btn{
@@ -201,7 +201,7 @@ fieldset{
 
 
 .footer{
-    padding: 2% 5%;
+    padding: 2% 10%;
     background-color: #EDEDED;
     display: flex;
     flex-wrap: wrap;
@@ -218,6 +218,14 @@ fieldset{
 .footer div ul li{
     padding-bottom: 7px;
 }
+.footer div a{
+    text-decoration: none;
+    color: rgb(101, 100, 100);
+}
+.footer div h3{
+    font-size: 20px;
+}
+
 .product div a{
     text-decoration: none;
     color: red;
@@ -238,3 +246,7 @@ p{
 .menu{
     display: none;
 }
+
+
+
+

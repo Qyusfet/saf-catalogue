@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUTH BANKING (FUTURE ME)</title>
+    <link rel="stylesheet" href="ALTPRODUCT/ASSET/style.css">
+</head>
+<body>
+  <iframe src="menu.html" frameborder="0" width="100%" height="75" scrplling="no"></iframe>
+
+    <div class="future_me">
+        <div class="write" >
+            <h1>Youth Banking (FUTURE ME)</h1>
+            <p>In Alternative Bank, we care about your future, your dream and asipration and this is why we are introducing you to a youth banking offerings call FUTURE ME</p>
+            <p> FUTURE ME allow students below the age of 18 to independently own an account and also save towards their futures </p>
+            <p>FUTURE ME comes with a whole lots of offering that enhance savings and also also Improve and support your lifestyle </p>
+            <h2 class="benefits">Benefits</h2>
+            <ul class="list">
+                <li> Access to all E-channel</li>
+                <li> Zero Transaction Fee on regular bank transfers</li>
+                <li> Naira card with Access up to $100</li>
+                <li> Access to ALTMALL</li>
+                <li> Free debit card</li>
+                <li> Zero opening balance</li>
+                <li> Eligibility for Internship and graduate scheme </li>
+                <li> Earn money by becoming a Brand Ambassador (Future Me Captain)</li>
+                <LI> Opportunity to kick-start your start-up business (ALTBIZ) (Future Me 
+                    Entrepreneurs)</LI>
+                <li> Eligibility to purchase discounted movie tickets and other deals</li>
+                <li> Discount on Meals in the best restaurants on campus</li>
+                <li> benefits – discounts/loyalty bonuses/vouchers for select on-site campus activities</li>
+            </ul>
+            <h2 class="require">Requirements</h2>
+            <ul class="tab">
+                <li> School Admission Letter</li>
+                <li> School/Faculty/Department ID Card</li>
+                <li> Matriculation/Student Admission Number</li>
+                <Li> NIN and BVN</Li>
+            </ul>
+            <a href="https://safonlineaccount.sterling.ng/index.html#/" target="_blank"> Click here to open account </a>
+        </div>
+            <div class="matric">
+                <img src="ALTPRODUCT/ASSET/future.jpg" alt="">
+            </div>
+    </div>
+    
+    <script>
+        var acc = document.getElementsByClassName("benefits");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var list = this.nextElementSibling;
+            if (list.style.display === "block") {
+               list.style.display = "none";
+            } else {
+              list.style.display = "block";
+            }
+          });
+        }
+        </script>
+
+<script>
+    var acc = document.getElementsByClassName("require");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var tab = this.nextElementSibling;
+        if (tab.style.display === "block") {
+          tab.style.display = "none";
+        } else {
+          tab.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+</body>
+</html>
